@@ -1,0 +1,49 @@
+@media screen and (max-width : 1200px) {
+    #introduction p {
+        font-size: .9rem;
+    }
+
+    #introduction h1 {
+        font-size: 2.3rem;
+    }
+
+    #introduction {
+        min-height: 20vh;
+        max-height: 50vh;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    #introduction {
+        min-height: 85vh;
+        max-height: 1000vh;
+    }
+
+    .social-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    #about p {
+        text-align: justify !important;
+    }
+
+
+}
+
+@media screen and (max-width : 576px) {
+    #introduction .my-foto {
+        width: 50%;
+    }
+
+    #introduction {
+        min-height: 62vh;
+        max-height: 1000vh;
+    }
+
+
+}
+
+@media screen and (max-width : 350px) {
+    
+}
