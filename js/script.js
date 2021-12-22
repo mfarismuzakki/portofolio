@@ -5,6 +5,8 @@ class Script
     {
         this.setScrollNav();
         this.changeNavbarActive();
+        this.activateProfileButton();
+        AOS.init();
     }
 
     setScrollNav()
@@ -23,6 +25,17 @@ class Script
             }
 
         });
+    }
+
+    activateProfileButton()
+    {
+        (function() {
+            $('.btn').click(function() {
+              $(this).toggleClass('active');
+              return $('.box').toggleClass('open');
+            });
+          
+          }).call(this);
     }
 
     changeNavbarActive()

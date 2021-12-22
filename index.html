@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/image-hover/imagehover.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -19,8 +20,7 @@
 
     <title>HI! I'm Faris</title>
 </head>
-<body>
-            
+<body>            
     <!-- Navbar -->
     <section id="navigation">
         <div class="container-fluid  position-fixed navbar-bootstrap">
@@ -60,29 +60,45 @@
                         Software Developer || Machine Learning Engineer || 3D Designer <br>
                         <span class="fw-cold color-acsent">4 Years++</span> Experienced in Industries
                     </p>
-                    <!-- <button class="btn btn-talk my-1">Let's Talk</button> -->
-                    <div class="social-icon position-absolute mt-3">
-                        <!-- <img src="img/icon/linkedin.svg" alt="">
-                        <img src="img/icon/instagram.svg" alt="">
-                        <img src="img/icon/github-logo.svg" alt="">
-                        <br> -->
+                    <div class="social-icon position-absolute mt-3 bottom-0">
+                        <div class="profile">
+                            <div class="content">
+                                <div class="text">
+                                    <h6>Connect with Me!</h6>
+                                    <!-- <h6>Software Engineer</h6> -->
+                                </div>
+                                <div class="btn"><span></span></div>
+                            </div>
+                            <div class="box"><i class="fab fa-google"></i><i class="fab fa-instagram"></i><i class="fab fa-linkedin-in"></i><i class="fab fa-github"></i><i class="fab fa-researchgate"></i></div>
+                        </div>                        
                         <a href="#" class="fw-bold text-decoration-none cv-download">Download <span class="color-acsent">My Curriculum Vitae</span></a>
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-6 mb-0 order-md-2">
-                    <img src="img/my-foto.png" width="90%" class="float-lg-end mx-auto d-block my-foto" alt="">
+                    <img src="img/my-foto.png" width="90%" class="float-lg-end mx-auto d-block my-foto" alt="">                 
                 </div>
             </div>
         </div>
     </section>
     <!-- End Introduction -->
 
+    <!-- Introduction 2 -->
+    <section id="introduction-2">
+        <div class="container-fluid">
+            <div class="container">
+
+            </div>
+        </div>
+
+    </section>
+    <!-- End Introduction 2 -->
+
     <!-- About -->
     <section id="about">
         <div class="container-fluid">
             <div class="container">
                 <img id="pacman" src="img/icon/pacman.svg" alt="">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" data-aos="fade-down" data-aos-duration="1000">
                     <div class="col-lg-10 col-md-12">
                         <h1 class="text-center fw-bold">About</h1>
                         <hr>
@@ -107,7 +123,7 @@
     <section id="carrer-timeline">
         <div class="container-fluid">   
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center" data-aos="fade-down" data-aos-duration="1000">
                     <div class="col-lg-10 col-md-12">
                         <h1 class="text-center fw-bold">Careers</h1>
                         <hr>
@@ -117,7 +133,7 @@
                     <div class="col-md-12">
                         <div class="main-timeline">
                             <!-- Spring Valley -->
-                            <div class="timeline">
+                            <div class="timeline" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="timeline-content">
                                     <div class="timeline-icon"><img src="img/companies/spring_valley.png" class="img-fluid mb-2" alt="Spring Valley Tech Corp"></div>
                                     <div class="timeline-year">2019</div>
@@ -129,7 +145,7 @@
                                 </div>
                             </div>
                             <!-- Ciheul -->
-                            <div class="timeline">
+                            <div class="timeline" data-aos="fade-right" data-aos-duration="1000">
                                 <div class="timeline-content">
                                     <div class="timeline-icon"><img src="img/companies/ciheul.png" class="img-fluid mb-2 ml-1" alt="PT. Ciheul Technologies"></div>
                                     <div class="timeline-year">2020</div>
@@ -141,7 +157,7 @@
                                 </div>
                             </div>
                             <!-- Agate -->
-                            <div class="timeline">
+                            <div class="timeline" data-aos="fade-left" data-aos-duration="1000">
                                 <div class="timeline-content">
                                     <div class="timeline-icon"><img src="img/companies/agate.png" class="img-fluid mb-2" alt="PT. Agate International"></div>
                                     <div class="timeline-year">2021</div>
@@ -170,6 +186,7 @@
                         <hr>
                     </div>
                 </div>
+                <h6 class="text-center fw-bold">Level : Expert, Advance, Intermediate, Beginer</h6>
                 <div class="row justify-content-center mt-3">
                     <h2 class="title mt-3 text-center">Backend</h2>
                     <div class="col-lg-10 col-md-6 text-center mt-3">
@@ -418,6 +435,7 @@
     <!-- Javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
     <!-- End Javascript -->
     
